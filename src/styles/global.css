@@ -1,0 +1,58 @@
+    :root {
+    --primary-color: #4F46E5;
+    --text-dark: #1f2937;
+    --text-light: #f9fafb;
+    --bg-dark: #111827;
+    --bg-light: #f3f4f6;
+    --accent: #6366f1;
+    --radius: 8px;
+    }
+
+    * {
+    box-sizing: border-box;
+    }
+
+    body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+    }
+
+    header, footer {
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    }
+
+    a {
+    color: var(--accent);
+    text-decoration: none;
+    }
+
+    nav a {
+    color: var(--text-light);
+    font-weight: 500;
+    }
+
+    section {
+    padding: 4rem 2rem;
+    }
+
+    h1, h2, h3 {
+    margin-top: 0;
+    }
+
+    button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1rem;
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: background 0.2s ease;
+    }
+
+    button:hover {
+    background-color: #4338ca;
+    }
