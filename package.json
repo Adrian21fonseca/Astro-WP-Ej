@@ -7,6 +7,9 @@
         "preview": "astro preview"
     },
     "dependencies": {
-        "astro": "^4.0.0"
+        "astro": "^5.12.5"
+    },
+    "devDependencies": {
+        "@astrojs/vercel": "^8.2.3"
     }
 }
